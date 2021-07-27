@@ -1,10 +1,11 @@
 body {
     background-color: #efeee7;
     font-family: Georgia,"Times New Roman", Times, serif;
-    font: #333333;
+    color: #333333;
     margin: 0;
     padding: 0;
     line-height: 1.5em;
+    font-size: 18px;
 }
 
 header {
@@ -12,10 +13,12 @@ header {
 }
 
 h1 {
-    font: #eee;
+    color: #eee;
     font-size: 28px;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -38,12 +41,13 @@ a {
 
 #bio-image {
     width: 200px;
+    height: 200px;
+    margin-right: 20px;
 
 }
 
 #main-bio {
     width: 70%;
-    margin-right: 10px;
 }
 
 #contact-info {
